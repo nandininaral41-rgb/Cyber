@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CyberGuard - Cybersecurity</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#050b16;
+    color:white;
+}
+
+
+header{
+    background:#071426;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+nav a{
+    color:#00ffff;
+    text-decoration:none;
+    margin:15px;
+}
+
+
+.hero{
+
+height:400px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+background:
+linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)
+),
+url("https://images.unsplash.com/photo-1563013544-824ae1b704d3");
+
+background-size:cover;
+
+}
+
+
+button{
+
+background:#00ffff;
+border:none;
+padding:12px 25px;
+cursor:pointer;
+border-radius:5px;
+
+}
+
+
+
+section{
+
+padding:40px;
+text-align:center;
+
+}
+
+
+
+.cards{
+
+display:flex;
+justify-content:center;
+gap:20px;
+
+}
+
+
+
+.card{
+
+background:#101c30;
+padding:25px;
+width:250px;
+border-radius:10px;
+
+box-shadow:0 0 15px #00ffff;
+
+}
+
+
+
+li{
+
+margin:15px;
+
+}
+
+
+
+footer{
+
+background:#071426;
+padding:20px;
+text-align:center;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+<h1>🛡 CyberGuard</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#threats">Threats</a>
+<a href="#tips">Tips</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero" id="home">
+
+<h2>Protect Your Digital World</h2>
+
+<p>
+Cybersecurity solutions for a safer internet
+</p>
+
+<button onclick="showMessage()">
+Learn More
+</button>
+
+</section>
+
+
+
+
+<section id="services">
+
+<h2>Cybersecurity Services</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Network Security</h3>
+
+<p>
+Protection from unauthorized access and attacks.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Ethical Hacking</h3>
+
+<p>
+Finding vulnerabilities before hackers.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Data Protection</h3>
+
+<p>
+Keeping important information secure.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section id="threats">
+
+<h2>Cyber Threats</h2>
+
+
+<ul>
+
+<li>Phishing</li>
+<li>Malware</li>
+<li>Ransomware</li>
+<li>Password Attacks</li>
+<li>Data Breaches</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+<section id="tips">
+
+
+<h2>Security Tips</h2>
+
+
+<p>✔ Use strong passwords</p>
+
+<p>✔ Enable 2FA</p>
+
+<p>✔ Don't open unknown links</p>
+
+<p>✔ Update software regularly</p>
+
+
+</section>
+
+
+
+
+<footer>
+
+<p>
+© 2026 CyberGuard Cybersecurity
+</p>
+
+</footer>
+
+
+
+<script>
+
+
+function showMessage(){
+
+alert(
+"Learn cybersecurity and protect yourself from online threats!"
+);
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
